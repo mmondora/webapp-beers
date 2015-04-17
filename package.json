@@ -1,0 +1,42 @@
+{
+  "name": "webapp-beers",
+  "version": "1.0.0",
+  "description": "Beers microservice",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "env NODE_PATH=\"app/\" mocha tests/unit/**/*.js",
+    "dev": "node_modules/.bin/gulp"
+  },
+  "author": "Paolo Scanferla <paolo.scanferla@mondora.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.16",
+    "express": "^4.12.3",
+    "jsondiffpatch": "^0.1.31",
+    "meteor-wapi": "^0.3.0",
+    "mongodb": "^2.0.25",
+    "node-uuid": "^1.4.3",
+    "ramda": "^0.13.0",
+    "stripe": "^3.3.4",
+    "tcomb": "^1.0.1",
+    "tcomb-validation": "^1.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.6.4",
+    "coveralls": "^2.11.2",
+    "gulp": "^3.8.11",
+    "gulp-gh-pages": "^0.5.0",
+    "gulp-spawn-mocha": "^2.0.1",
+    "istanbul": "^0.3.13",
+    "jscs": "^1.12.0",
+    "jscs-html-reporter": "0.0.4",
+    "mkdirp": "^0.5.0",
+    "mocha": "^2.2.4",
+    "mochawesome": "^1.1.1",
+    "should": "^5.2.0",
+    "should-promised": "^0.2.0",
+    "sinon": "^1.14.1",
+    "supertest": "^0.15.0",
+    "supertest-as-promised": "^2.0.0"
+  }
+}
